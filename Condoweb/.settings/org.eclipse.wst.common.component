@@ -5,6 +5,9 @@
         <dependent-module archiveName="CondoCommon.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CondoCommon/CondoCommon">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="CondoServicios.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CondoServicios/CondoServicios">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="Condoweb"/>
         <property name="java-output-path" value="/Condoweb/build/classes"/>
     </wb-module>
